@@ -2,6 +2,7 @@
   <head>
     <meta charset="utf-8">
     <title>За крокам крок да Беларусі</title>
+    <meta name="viewport" content="width=device-width">
     <style>
       body {
       }
@@ -58,6 +59,22 @@
         padding-top: 13%;
         padding-left: 32%;
         padding-right: 8%;
+      }
+
+      @media only screen and (max-width: 800px) {
+        #second {
+          background-image: url(/files/images/small-bg.png) !important;
+          background-size: 10% auto;
+          background-repeat: repeat-y;
+          background-position: top left;
+          padding-left: 12%;
+          padding-right: 4%;
+          padding-top: 0;
+        }
+
+        #second #content {
+          font-size: 7vw;
+        }
       }
 
       #content {
